@@ -1,0 +1,244 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11558324700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeAction.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Validate search cars page",
+        "description": "",
+        "id": "acceptance-testing-to-validate-search-cars-page-is-working;validate-search-cars-page",
+        "after": [
+          {
+            "result": {
+              "duration": 487800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterAction.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23112401700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Iam on the HomePage \"https://www.carsguide.com.au\" of CarsGuide website",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.carsguide.com.au",
+                  "offset": 21
+                }
+              ],
+              "location": "SearchCarSteps.iam_on_the_HomePage_of_CarsGuide_website(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 674751300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I move to the menu",
+            "match": {
+              "location": "SearchCarSteps.i_move_to_the_menu(String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Menu"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "buy + sell"
+                ],
+                "line": 12
+              },
+              {
+                "cells": [
+                  "reviews"
+                ],
+                "line": 13
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 660534500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click on \"Search Cars\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Search Cars",
+                  "offset": 10
+                }
+              ],
+              "location": "SearchCarSteps.click_on_link(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3845622700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Select Carbrand \"BMW\" from AnyMake dropdwon",
+            "match": {
+              "arguments": [
+                {
+                  "val": "BMW",
+                  "offset": 17
+                }
+              ],
+              "location": "SearchCarSteps.select_Carbrand_from_AnyMake_dropdwon(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 659405400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Select Carmodel \"1Series\" from AnyModel dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1Series",
+                  "offset": 17
+                }
+              ],
+              "location": "SearchCarSteps.select_Carmodel_from_AnyModel_dropdown(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 297019600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Select Location \"NT-All\" from AnyLocatin dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "NT-All",
+                  "offset": 17
+                }
+              ],
+              "location": "SearchCarSteps.select_Location_from_AnyLocatin_dropdown(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 410063200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Select Price \"$5000\"  from Price(max) dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "$5000",
+                  "offset": 14
+                }
+              ],
+              "location": "SearchCarSteps.select_Price_from_Price_max_dropdown(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5139517700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Click on \"Find My Next Car\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Find My Next Car",
+                  "offset": 10
+                }
+              ],
+              "location": "SearchCarSteps.click_on_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I should see list of searched cars",
+            "match": {
+              "location": "SearchCarSteps.i_should_see_list_of_searched_cars()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 116200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the page should be displayed \"Make x BMW\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Make x BMW",
+                  "offset": 30
+                }
+              ],
+              "location": "SearchCarSteps.the_page_should_be_displayed(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@Search-Cars-Postive-Scenario"
+          }
+        ]
+      }
+    ],
+    "name": "Acceptance testing to validate search cars page is working",
+    "description": "In order to validate that\r\nthe search cars page is working fine\r\nwe will do the acceptance testing",
+    "id": "acceptance-testing-to-validate-search-cars-page-is-working",
+    "keyword": "Feature",
+    "uri": "C:/Users/kpott/SeleniumAutomatiom/cucumberPageObjectModel/src/test/resources/features/SearchCars.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Search-Cars"
+      }
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="0">
+<testcase classname="Acceptance testing to validate search cars page is working" name="Validate search cars page" time="0">
+<skipped><![CDATA[Given Iam on the HomePage "https://www.carsguide.com.au" of CarsGuide website.undefined
+When I move to the menu.....................................................undefined
+And click on "Search Cars" link.............................................undefined
+And Select Carbrand "BMW" from AnyMake dropdwon.............................undefined
+And Select Carmodel "1Series" from AnyModel dropdown........................undefined
+And Select Location "NT-All" from AnyLocatin dropdown.......................undefined
+And Select Price "$5000"  from Price(max) dropdown..........................undefined
+And Click on "Find My Next Car" button......................................undefined
+Then I should see list of searched cars.....................................undefined
+And the page should be displayed "Make x BMW"...............................undefined
+]]></skipped>
+</testcase>
+</testsuite>

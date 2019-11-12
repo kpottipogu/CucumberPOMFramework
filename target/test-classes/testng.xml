@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HBI Testing Framework">
+	
+	<test name="Scenario" preserve-order="true">
+		<classes>
+			<class name="runner.RunCuke" />
+		</classes>
+	</test>
+</suite>
